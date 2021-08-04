@@ -18,7 +18,6 @@ int main() {
 	avg=(mark1+mark2)/2;
 	printf("The average: %.2f\n", avg);
 
-  
   return 0;
 }
 
