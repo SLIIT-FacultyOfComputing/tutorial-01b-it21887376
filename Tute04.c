@@ -6,14 +6,25 @@ Do not change the code given in the main() function when you are implementing yo
 
 #include <stdio.h>
 
-int main() {
+int minimum(int x);
+int maximum(int x);
+int multiply(int x);
+
+int main()
+ {
    int no1, no2;
+
    printf("Enter a value for no 1 : ");
    scanf("%d", &no1);
+
    printf("Enter a value for no 2 : ");
    scanf("%d", &no2);
+
    printf("%d ", minimum(no1, no2));
+
    printf("%d ", maximum(no1, no2));
+  
    printf("%d ", multiply(no1, no2));
+
    return 0;
 }
